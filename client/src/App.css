@@ -1,9 +1,20 @@
 .App {
   text-align: left;
-  background: #CECEC4;
+  background: whitesmoke;
+
+
+  /* background: #CECEC4;
 background: -moz-linear-gradient(-45deg, #CECEC4 0%, #6B1063 100%);
 background: -webkit-linear-gradient(-45deg, #CECEC4 0%, #6B1063 100%);
-background: linear-gradient(135deg, #CECEC4 0%, #6B1063 100%);
+background: linear-gradient(135deg, #CECEC4 0%, #6B1063 100%); */
+
+
+/* background: #EDEDE2;
+background: -moz-linear-gradient(-45deg, #EDEDE2 0%, #FFFFFF 50%, #EDEDE2 100%);
+background: -webkit-linear-gradient(-45deg, #EDEDE2 0%, #FFFFFF 50%, #EDEDE2 100%);
+background: linear-gradient(135deg, #EDEDE2 0%, #FFFFFF 50%, #EDEDE2 100%); */
+
+
   padding-bottom: 500px;
   color: white;
 }
