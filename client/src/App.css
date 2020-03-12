@@ -1,6 +1,8 @@
 .App {
   text-align: left;
-  background: whitesmoke;
+  background: darkslateblue;
+
+  
 
 
   /* background: #CECEC4;
@@ -15,7 +17,7 @@ background: -webkit-linear-gradient(-45deg, #EDEDE2 0%, #FFFFFF 50%, #EDEDE2 100
 background: linear-gradient(135deg, #EDEDE2 0%, #FFFFFF 50%, #EDEDE2 100%); */
 
 
-  padding-bottom: 500px;
+  padding-bottom: 50px;
   color: white;
 }
 

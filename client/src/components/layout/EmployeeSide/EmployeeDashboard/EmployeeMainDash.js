@@ -8,8 +8,8 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 
-import EmployeesCard from './EmployeeDashComponents/EmployeesCard';
-import EmployeeTable from './EmployeeDashComponents/EmployeeTable';
+import EmployeesCard from './EmployeesCard';
+import EmployeeTable from './EmployeeTable';
 
 const useStyles = makeStyles({
   root: {

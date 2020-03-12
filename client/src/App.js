@@ -9,13 +9,13 @@ import store from "./store";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./components/layout/Navbar";
+// import Footer from "./components/layout/Footer";
 import Landing from "./components/layout/Landing";
 import Register from "./components/auth/Register";
 import Login from "./components/auth/Login";
 import DashboardHome from "./components/layout/DashboardHome";
 import PrivateRoute from "./components/private-route/PrivateRoute";
 import Dashboard from "./components/dashboard/Dashboard";
-import Test from "./components/Test/Test";
 import AppIndex from "./components/layout/LandingPage/AppIndex";
 import EmployeeLogin from "./components/layout/EmployeeSide/EmployeeLogin";
 import EmployeeRegister from "./components/layout/EmployeeSide/EmployeeRegister";
@@ -23,6 +23,8 @@ import EmployeeDashIndex from "./components/layout/EmployeeSide/EmployeeDashInde
 import DevLogin from "./components/layout/DevSide/DevLogin";
 import DevRegister from "./components/layout/DevSide/DevRegister";
 import DevDashIndex from "./components/layout/DevSide/DevDashIndex";
+
+
 
 
 // Check for token to keep user logged in
@@ -49,13 +51,14 @@ function App() {
     <Provider store={store}>
       <Router>
         <div className="App">
+
           <Navbar />
+
           <Route exact path="/" component={Landing} />
           <Route exact path="/register" component={Register} />
           <Route exact path="/login" component={Login} />
           {/* <Route exact path="/dashboard" component={DashboardHome} /> */}
 
-          <Route exact path="/Test" component={Test} />
 
 
           <Route exact path="/index" component={AppIndex} />
@@ -75,6 +78,8 @@ function App() {
             <PrivateRoute exact path="/dashboard" component={Dashboard} />
             {/* <PrivateRoute exact path="/EmployeeDashIndex" component={EmployeeDashIndex} /> */}
           </Switch>
+
+
         </div>
       </Router>
     </Provider>
